@@ -78,3 +78,4 @@
         return query(start,end,2*i+1,l,mid) + query(start,end,2*i+2,mid+1,r);
     }
     // TC = O(log(n))
+- problem in gfg :https://www.geeksforgeeks.org/problems/range-sum-queries2353/1
