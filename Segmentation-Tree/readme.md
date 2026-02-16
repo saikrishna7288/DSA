@@ -42,7 +42,7 @@
 # 1.updating a value in SegTree.
 - ```js 
     void update(idx,val,i,l,r){
-        //idx=index at which we want to change with value=val,i=0 from root,l and r are (0,size of arr);
+        //idx=index at which we want to change with value=val,i=0 from root,l and r are (0,size of arr-1);
         if(l==r){
             segtree[i]=val;
             return;
